@@ -91,24 +91,6 @@ const CombatScreen = () => {
           </Text>
         </View>
       </Flex>
-      {/* <TextInput
-                style={{ height: 40 }}
-                label="Nombre" variant="standard"
-                onChangeText={(text) => setNombre(text)}
-                value={nombre}
-                accessibilityLabel="nombre"
-            />
-            <TextInput
-                placeholder="Escribe aqui tu apellido"
-                onChangeText={(text) => setApellido(text)}
-                value={apellido}
-                label="Apellido" variant="standard"
-                accessibilityLabel="apellido"
-            />
-            <Button title="Obtener Nombre Completo" onTouchEnd={calculaNombreCompleto} />
-            <Text style={{ margin: 16 }} testID="nombreCompleto" accessibilityLabel='nombreCompleto'>
-                {nombreCompleto}
-            </Text> */}
     </Stack>
   );
 };
